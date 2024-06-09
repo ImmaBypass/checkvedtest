@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho y alto del elemento */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0; /* Eliminar margen por defecto del navegador */
+    padding: 0;
+    color: white;
+    background-color: #333;
+}
+
+html, body {
+    margin: 0;
+  }
+
+header {
+    background-color: black;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    margin: 0;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #444;
+    text-align: center;
+    padding: 40px 20px;
+    margin-left: -5%;
+    width: 108.4%; /* Ocupar todo el ancho disponible */
+    box-sizing: border-box; /* Incluir el padding dentro del ancho */
+    color: white;
+    height: 110%;
+    position: relative;
+    top: -20px;
+}
+
+.intro h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hs{
+    margin-top: 0px;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
